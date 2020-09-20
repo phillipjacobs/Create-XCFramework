@@ -20,7 +20,7 @@ What things are needed to generate a .xcframework 😞
 
 
 ## Download and Run The Script 
-* ###### (To rather perform each command manually, see '[Step By Step](https://github.com/phillipjacobs/Create-XCFramework#create-xcframework)')
+* ###### (To rather perform each command manually, see '[Step By Step](https://github.com/phillipjacobs/Create-XCFramework#step-by-step)')
 
 Here's how to download and run the script 🤓
 
@@ -79,7 +79,8 @@ chmod 755 create-xcframework.sh && ./create-xcframework.sh
 ....unless of course you changed the path variables in the create-xcframework.sh file 🤨 
 ```
 
-### Step By Step (To rather do all this automatically by running the script, see '[Download and Run The Script](https://github.com/phillipjacobs/Create-XCFramework#create-xcframework)')
+### Step By Step
+* ###### (To rather do all this automatically by running the script, see '[Download and Run The Script](https://github.com/phillipjacobs/Create-XCFramework#download-and-run-the-script)')
 
 
 Here's how to run each command in your terminal manually 🤓
@@ -94,7 +95,7 @@ What do I mean by the root of your project ?
 We’ll be archiving for the iOS device, Simulator, and Mac Catalyst architectures.
 If you don't want one of these architectures supported by your xcframework, then just skip the step where we archive for that architecture.
 
-Please refer to [Download and Run The Script](https://github.com/phillipjacobs/Create-XCFramework#create-xcframework)') if you want to see how to change from a `workspace` to a `project`.
+Please refer to [Download and Run The Script](https://github.com/phillipjacobs/Create-XCFramework#download-and-run-the-script)') if you want to see how to change from a `workspace` to a `project`.
 
 Change `MySexyFramework` to the name of your framework
 #### 2. Run this command in your terminal to archive for the `iOS device architecture`.
